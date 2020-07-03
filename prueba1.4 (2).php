@@ -1,7 +1,7 @@
 ﻿<?php
 	//$provincia = (isset($_POST["lstprovincia"]) ? $_POST["lstprovincia"] : "0");
 var_dump($_POST);
-//COMENTARIO DE PRUEBA
+//COMENTARIO DE PRUEBA//
 
 //$provincia = $_POST["lstprovincia"];
 $provincia = (isset($_POST["provincia"]) ? $_POST["provincia"] : "0");
@@ -22,6 +22,7 @@ $provincia = (isset($_POST["provincia"]) ? $_POST["provincia"] : "0");
 			
 		";
 	}
+//vamos a ver  las provincias//
 
 ?>
 <!DOCTYPE html>
@@ -50,7 +51,7 @@ $provincia = (isset($_POST["provincia"]) ? $_POST["provincia"] : "0");
 			<option value="8" <?php if($provincia=='8') { echo "selected='selected'";} ?> >Carchi</option>
 			<option value="9" <?php if($provincia=='9') {echo "selected='selected'";} ?>>Los Rios</option>
 			
-		
+	//&%las ciudades y mas//	
 		<select name="ciudad"><?php echo $ciudad ?></select><br><br>
 		<input type="submit" name="cmdenviar" id="cmdenviar" value="Enviar">
 	</form>
