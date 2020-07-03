@@ -1,6 +1,7 @@
 ﻿<?php
 	//$provincia = (isset($_POST["lstprovincia"]) ? $_POST["lstprovincia"] : "0");
 var_dump($_POST);
+//COMENTARIO DE PRUEBA
 
 //$provincia = $_POST["lstprovincia"];
 $provincia = (isset($_POST["provincia"]) ? $_POST["provincia"] : "0");
